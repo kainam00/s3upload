@@ -61,4 +61,3 @@ obj = Aws::S3::Object.new(
   credentials: Aws::Credentials.new(config["access_key_id"], config["secret_access_key"]), bucket_name: bucketname, key: objectkey
 )
 obj.upload_file(source)
-obj.public_url
