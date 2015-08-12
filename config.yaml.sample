@@ -1,0 +1,3 @@
+access_key_id: MY_AWS_CREDENTIALS
+secret_access_key: MY_AWS_CREDENTIALS
+region: us-east-1
